@@ -94,9 +94,6 @@ def load_data(city, month, dow):
     else:
         return df
 
-# city, month, dow = get_filters() # testing
-# df = load_data(city, month, dow) # testing
-
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
     if df.empty:
