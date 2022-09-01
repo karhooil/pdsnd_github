@@ -63,8 +63,6 @@ def get_filters():
     print('-'*40)
     return input_city, input_month, input_dow
 
-# city, month, dow = get_filters() # testing
-
 def load_data(city, month, dow):
     """
     Loads data for the specified city and filters by month and day if applicable.
