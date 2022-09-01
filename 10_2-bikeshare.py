@@ -1,4 +1,4 @@
-# <Project: Explore US Bikeshare Data>
+# <Project: Explore US Bikeshare Data Using Python>
 # In this project, you will write Python code to import US bike share data and answer interesting questions about it by computing descriptive statistics. 
 # You will also write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 # You can submit your files as a .zip archive or you can link to a GitHub repository containing your project files. There is no need for you to include any data files with your submission.
