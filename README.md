@@ -1,17 +1,25 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+## Date Created
+Created on Sep 1, 2022
 
-### Date created
-Include the date you created this project and README file.
+## Project Title
+Explore US Bikeshare Data Using Python
 
-### Project Title
-Replace the Project Title
+## Description
+This project includes Python code written to provide useful information across: (1) popular times of travel, (2) popular stations & trip, (3) trip duration and (4) user info from the following datasets - see below
 
-### Description
-Describe what your project is about and what it does
+## Datasets Information
+The datasets contain randomly selected data for the first six months of 2017 for three cities: Chicago, New York City and Washington. 
+All three of the data files contain the same core six columns: 
+1. Start Time
+2. End Time
+3. Trip Duration
+4. Start Station 
+5. End Station 
+6. User Type </ul>
 
-### Files used
-Include the files used
+2 additional columns are available for Chicago and New York City: 
+1. Gender 
+2. Birth Year
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+## Author
+Kar Hooi, L. - prepared for Udacity's Programming for Data Science Nanodegree Program
