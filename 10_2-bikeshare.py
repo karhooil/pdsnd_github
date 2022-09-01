@@ -118,10 +118,6 @@ def time_stats(df):
         print("\nThis calculation took {} seconds.".format(time.time() - start_time))
         print('-'*40)
 
-# city, month, dow = get_filters() # testing
-# df = load_data(city, month, dow) # testing
-# time_stats(df) # testing
-
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
     if df.empty:
@@ -147,11 +143,6 @@ def station_stats(df):
         print("\nThis calculation took {} seconds.".format(time.time() - start_time))
         print('-'*40)
 
-# city, month, dow = get_filters() # testing
-# df = load_data(city, month, dow) # testing
-# time_stats(df) # testing
-# station_stats(df) # testing
-
 def trip_duration_stats(df):
     """Displays statistics on the total and average trip duration."""
     if df.empty:
@@ -171,12 +162,6 @@ def trip_duration_stats(df):
 
         print("\nThis calculation took {} seconds.".format(time.time() - start_time))
         print('-'*40)
-
-# city, month, dow = get_filters() # testing
-# df = load_data(city, month, dow) # testing
-# time_stats(df) # testing
-# station_stats(df) # testing
-# trip_duration_stats(df) # testing
 
 def user_stats(df, city):
     """Displays statistics on bikeshare users."""
@@ -208,13 +193,6 @@ def user_stats(df, city):
         print("\nThis calculation took {} seconds.".format(time.time() - start_time))
         print('-'*40)
 
-# city, month, dow = get_filters() # testing
-# df = load_data(city, month, dow) # testing
-# time_stats(df) # testing
-# station_stats(df) # testing
-# trip_duration_stats(df) # testing
-# user_stats(df, city) # testing
-
 def dis_raw(df):
     """Displays up to 5 rows of raw data each time when prompted."""
     if df.empty:
@@ -236,14 +214,6 @@ def dis_raw(df):
                 print("Invalid input. Please enter 'yer' or 'no'.")
 
             print('-'*40)   
-
-# city, month, dow = get_filters() # testing
-# df = load_data(city, month, dow) # testing
-# time_stats(df) # testing
-# station_stats(df) # testing
-# trip_duration_stats(df) # testing
-# user_stats(df, city) # testing
-# dis_raw(df) # testing
 
 def main():
     while True:
